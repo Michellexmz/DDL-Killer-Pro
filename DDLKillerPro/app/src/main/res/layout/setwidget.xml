@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <Button
+        android:text="＜返回       通知栏设置"
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:id="@+id/button6"
+        android:gravity="left"
+        android:backgroundTint="@android:color/transparent"
+        android:background="@android:color/transparent"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="normal|bold" />
+
+    <Switch
+        android:text="　　 开启通知栏提醒"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch1"
+        android:layout_weight="0.06"
+        android:switchTextAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="24sp"
+        android:textAllCaps="false" />
+
+    <Button
+        android:text="　　默认提醒事项数目　　　＞"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button8"
+        android:textSize="24sp"
+        android:gravity="left"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:visibility="invisible"/>
+
+    <Button
+        android:text="　　默认开始提醒时间　　　＞"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button9"
+        android:textSize="24sp"
+        android:gravity="left"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:visibility="invisible"/>
+
+</LinearLayout>

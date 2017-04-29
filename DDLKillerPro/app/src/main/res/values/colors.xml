@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#823935</color>
+    <color name="colorPrimaryDark">#823935</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="wheel_timebtn_nor">#54a3fa</color>
+    <color name="wheel_timebtn_pre">#CCCCCC</color>
+    <color name="blue">#6799a6</color>
+    <color name="anotherWhite">#c2cce4</color>
+    <color name="black">#d2414040</color>
+    <color name="date_bkg">#B2DFEE</color>
+    <color name="date_choose">#CDAF95</color>
+</resources>

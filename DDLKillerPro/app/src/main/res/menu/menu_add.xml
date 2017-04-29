@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.michellezhang.ddlkillerpro.DaysMatter">
+    <item
+        android:id="@+id/action_item"
+        android:orderInCategory="100"
+        android:title="添加事项"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_label"
+        android:orderInCategory="200"
+        android:title="添加分类"
+        app:showAsAction="never"
+        />
+</menu>
+

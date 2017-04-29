@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:baselineAligned="false"
+    android:weightSum="1">
+
+    <Button
+        android:text="＜返回         锁屏设置"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button6"
+        android:gravity="left"
+        android:backgroundTint="@android:color/transparent"
+        android:background="@android:color/transparent"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="normal|bold"
+        android:textSize="22sp" />
+
+    <Button
+        android:text="　默认锁屏提醒时刻 　　　＞"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button10"
+        android:textSize="24sp"
+        android:gravity="left"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_weight="0.04" />
+
+    <Button
+        android:text="　默认锁屏提醒频率 　　　＞"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button11"
+        android:textSize="24sp"
+        android:gravity="left"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_weight="0.03" />/>
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.baoyz.swipemenulistview.SwipeMenuListView
+        android:id="@+id/listView_2"
+        android:layout_width="match_parent"
+        android:layout_height="142dp"
+        android:divider="#00000000"
+        android:dividerHeight="1dp"
+        android:fadingEdge="none"
+        android:fastScrollEnabled="false"
+        android:smoothScrollbar="true"
+        android:headerDividersEnabled="false"
+        android:footerDividersEnabled="false"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/button12"
+        android:layout_alignParentStart="true">
+
+    </com.baoyz.swipemenulistview.SwipeMenuListView>
+
+    <Button
+        android:text="＜返回        标签管理"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button12"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/transparent"
+        android:textSize="22sp"
+        android:textStyle="normal|bold" />
+
+</RelativeLayout>

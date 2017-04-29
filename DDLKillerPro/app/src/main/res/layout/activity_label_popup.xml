@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.michellezhang.ddlkillerpro.LabelPopup">
+
+    <EditText
+        android:id="@+id/labelName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:hint="点击这里输入分类名称"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <com.goodiebag.horizontalpicker.HorizontalPicker
+        android:id="@+id/hpImage1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/labelName"
+        android:layout_alignLeft="@+id/labelName"
+        app:textSize="18sp"
+        app:itemMargin="5dp"
+        app:itemHeight="40dp"
+        app:itemWidth="40dp" />
+
+    <com.goodiebag.horizontalpicker.HorizontalPicker
+        android:id="@+id/hpImage2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hpImage1"
+        android:layout_alignLeft="@+id/hpImage1"
+        app:textSize="18sp"
+        app:itemMargin="5dp"
+        app:itemHeight="40dp"
+        app:itemWidth="40dp" />
+
+    <com.goodiebag.horizontalpicker.HorizontalPicker
+        android:id="@+id/hpImage3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hpImage2"
+        android:layout_alignLeft="@+id/hpImage2"
+        app:textSize="18sp"
+        app:itemMargin="5dp"
+        app:itemHeight="40dp"
+        app:itemWidth="40dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="35dp"
+        android:layout_marginEnd="55dp"
+        android:text="确定" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="取消"
+        android:layout_marginStart="60dp"
+        android:layout_alignBaseline="@+id/button"
+        android:layout_alignBottom="@+id/button"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:baselineAligned="false"
+    android:orientation="vertical">
+
+
+    <Button
+        android:text="＜返回          设置"
+        android:layout_width="319dp"
+        android:layout_height="33dp"
+        android:id="@+id/button7"
+        style="@style/Widget.AppCompat.Button"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:background="@android:color/transparent"
+        android:gravity="left"
+        android:textStyle="normal|bold"
+        android:textSize="22sp"
+        android:layout_weight="0.01" />
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:background="@android:color/transparent"
+        android:elevation="0dp"
+        android:gravity="left"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:text="管理标签                     >" />
+
+    <Button
+        android:text="通知栏设置                   >"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:background="@android:color/transparent"
+        android:gravity="left"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <Button
+        android:text="锁屏设置                     >"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:id="@+id/button3"
+        android:gravity="left"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <Button
+        android:text="关于我们                     >"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:id="@+id/button4"
+        android:gravity="left"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+</LinearLayout>
